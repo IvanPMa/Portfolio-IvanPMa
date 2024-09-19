@@ -1,4 +1,4 @@
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import {PiLinkedinLogo,PiGithubLogo, PiInstagramLogo, PiFacebookLogo} from "react-icons/pi"
 import logo from '../assets/logo-ipm.webp';
 export const Navbar = () => {
     return (
@@ -14,25 +14,25 @@ export const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="LinkedIn">
-                        <FaLinkedin />
+                        <PiLinkedinLogo />
                 </a>
                 <a href="https://github.com/IvanPMa"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="GitHub">
-                        <FaGithub />
+                        <PiGithubLogo />
                 </a>
                 <a href="https://www.instagram.com/iva.nmaldo/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Instagram">
-                        <FaInstagram />
+                        <PiInstagramLogo />
                 </a>
                 <a href="https://www.facebook.com/profile.php?id=100077532501118"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Facebook">
-                        <FaFacebook />
+                        <PiFacebookLogo />
                 </a>
             </div>
         </nav>
