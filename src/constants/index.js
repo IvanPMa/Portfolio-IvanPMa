@@ -40,32 +40,32 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
   {
-    title: "Blogging Platform",
+    title: "Search Character App",
+    image: project2,
+    description:
+      "An application that implements information retrieval through an API for manipulation and communication between web components by performing a search and displaying it.",
+    technologies: ["HTML", "CSS", "JavaScript", "LitElement"],
+  },
+  {
+    title: "Music Player Web App",
+    image: project1,
+    description:
+      "A web application that allows you to play music, download it and control the volume on the interface.",
+    technologies: ["HTML", "SASS", "JavaScript"],
+  },
+  {
+    title: "Speech to text Web App",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "An experimental application that allows us to pass information from voice to text and also reads what we write. ",
+    technologies: ["HTML", "SASS", "JavaScript"],
   },
 ];
 
