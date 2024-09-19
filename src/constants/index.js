@@ -17,7 +17,7 @@ export const EXPERIENCES = [
     role: "Software Engineer",
     company: "Softtek / BBVA",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "LitElement", "Next.js", "mongoDB"],
+    technologies: ["Javascript", "LitElement", "HTML", "CSS"],
     iconBg: "#82BC19",
     icon: icon1,
     points : [
@@ -31,7 +31,7 @@ export const EXPERIENCES = [
     role: "Software Development Engineer",
     company: "Solera Inc",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    technologies: ["HTML", "CSS", "React","JavaScript", "SQL Server", "Java", "Spring", "Cypress"],
     iconBg: "#5A3582",
     icon: icon2,
     points : [
@@ -46,14 +46,14 @@ export const EXPERIENCES = [
     role: "Intern",
     company: "United Nations Office for Project Services",
     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    technologies: ["HTML", "SASS", "JavaScript", "React", "Google Apps Script", "PostgresSQL"],
     iconBg: "#4D8BC9",
     icon: icon3,
     points : [
       "Developed robust scripts for the automation of office processes, harnessing the power of Google Apps Script and JavaScript.",
       "Engineered automation solutions that significantly improved efficiency and streamlined day-to-day operations.",
       "Successfully implemented Google Apps Script to automate repetitive tasks, allowing for a more focused and productive work environment.",
-      "Conceived and executed web application interfaces from inception, employing a blend of React, JavaScript, CSS, and HTML to ensure seamless and engaging user experiences created scripts for the automation of office processes. (Google App Script - JavaScript)"
+      "Conceived and executed web application interfaces from inception, employing a blend of React, JavaScript, CSS, and HTML to ensure seamless and engaging user experiences created scripts for the automation of office processes. (Google Apps Script - JavaScript)"
     ]
   },
 ];

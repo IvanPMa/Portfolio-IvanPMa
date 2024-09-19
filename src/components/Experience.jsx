@@ -40,6 +40,14 @@ const ExperienceCard = (({experience})=>(
                 </li>
             ))}
         </ul>
+            
+        <div className="mt-4 flex flex-wrap">
+            {experience.technologies.map((tech,index) =>(
+                <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300" key={`experience-tech-${index}`}>
+                    {tech}
+                </span>
+            ))}
+        </div>
     </VerticalTimelineElement>
 ))
 
