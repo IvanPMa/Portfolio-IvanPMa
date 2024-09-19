@@ -15,11 +15,16 @@ export const EXPERIENCES = [
   {
     year: "2024 - Present",
     role: "Software Engineer",
-    company: "Softtek",
+    company: "Softtek / BBVA",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["Javascript", "LitElement", "Next.js", "mongoDB"],
     iconBg: "#82BC19",
     icon: icon1,
+    points : [
+      "Engaged in comprehensive training on LitElement, a Google library for web components, as requested by BBVA",
+      "Learning best practices for secure development with LitElement and JavaScript to ensure robust and secure applications.",
+      "Working towards certification to validate expertise in this technology"
+    ]
   },
   {
     year: "2022 - 2023",
@@ -28,7 +33,13 @@ export const EXPERIENCES = [
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
     iconBg: "#5A3582",
-    icon: icon2
+    icon: icon2,
+    points : [
+      "Spearheaded the development of new features, demonstrating proficiency in React, and Springboot.",
+      "Used SQL Server for efficient database management, ensuring seamless data retrieval and manipulation.",
+      "Actively participated in code reviews, maintaining high code quality standards and ensuring best practices.",
+      "Resolved critical bugs promptly, demonstrating a proactive approach to problem-solving."
+    ]
   },
   {
     year: "2021 - 2022",
@@ -37,7 +48,13 @@ export const EXPERIENCES = [
     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
     iconBg: "#4D8BC9",
-    icon: icon3
+    icon: icon3,
+    points : [
+      "Developed robust scripts for the automation of office processes, harnessing the power of Google Apps Script and JavaScript.",
+      "Engineered automation solutions that significantly improved efficiency and streamlined day-to-day operations.",
+      "Successfully implemented Google Apps Script to automate repetitive tasks, allowing for a more focused and productive work environment.",
+      "Conceived and executed web application interfaces from inception, employing a blend of React, JavaScript, CSS, and HTML to ensure seamless and engaging user experiences created scripts for the automation of office processes. (Google App Script - JavaScript)"
+    ]
   },
 ];
 
