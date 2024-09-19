@@ -25,7 +25,7 @@ export const Hero = () => {
                             rel="noopener noreferrer"
                             download
                             className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
-                        >Download Resume</a>
+                        >Resume / CV </a>
                     </div>
                 </div>
             </div>
