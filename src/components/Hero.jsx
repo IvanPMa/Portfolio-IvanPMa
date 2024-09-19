@@ -1,4 +1,4 @@
-import profilePic from "../assets/hero-ipm.webp"; 
+import profilePic from "../assets/hero-ipm-color.webp"; 
 import {HERO_CONTENT} from "../constants";
 
 export const Hero = () => {

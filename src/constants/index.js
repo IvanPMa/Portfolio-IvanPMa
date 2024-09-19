@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
+import project1 from "../assets/projects/project-default.webp";
+import project2 from "../assets/projects/project-default.webp";
+import project3 from "../assets/projects/project-default.webp";
+import project4 from "../assets/projects/project-default.webp";
 
 import icon1 from "../assets/icons/softtek.png"
 import icon2 from "../assets/icons/solera.png"
