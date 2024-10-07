@@ -3,9 +3,9 @@ import project2 from "../assets/projects/project-default.webp";
 import project3 from "../assets/projects/project-default.webp";
 import project4 from "../assets/projects/project-default.webp";
 
-import icon1 from "../assets/icons/softtek.png"
-import icon2 from "../assets/icons/solera.png"
-import icon3 from "../assets/icons/unops.jpg"
+import icon1 from "../assets/icons/softtek.png";
+import icon2 from "../assets/icons/solera.png";
+import icon3 from "../assets/icons/unops.jpg";
 
 export const HERO_CONTENT = `A passionate Software Engineer from Mexico skilled in developing robust and scalable Web Applications. With 2+ years of hands-on experience, I have cultivated expertise in Front-end technologies like React and LitElement, alongside back-end frameworks like Spring, MySQL, SQL Server, and PostgreSQL. I aim to harness my passion and skills to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -20,41 +20,57 @@ export const EXPERIENCES = [
     technologies: ["Javascript", "LitElement", "HTML", "CSS"],
     iconBg: "#82BC19",
     icon: icon1,
-    points : [
+    points: [
       "Engaged in comprehensive training on LitElement, a Google library for web components, as requested by BBVA",
       "Learning best practices for secure development with LitElement and JavaScript to ensure robust and secure applications.",
-      "Working towards certification to validate expertise in this technology"
-    ]
+      "Working towards certification to validate expertise in this technology",
+    ],
   },
   {
     year: "2022 - 2023",
     role: "Software Development Engineer",
     company: "Solera Inc",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "React","JavaScript", "SQL Server", "Java", "Spring", "Cypress"],
+    technologies: [
+      "HTML",
+      "CSS",
+      "React",
+      "JavaScript",
+      "SQL Server",
+      "Java",
+      "Spring",
+      "Cypress",
+    ],
     iconBg: "#5A3582",
     icon: icon2,
-    points : [
+    points: [
       "Spearheaded the development of new features, demonstrating proficiency in React, and Springboot.",
       "Used SQL Server for efficient database management, ensuring seamless data retrieval and manipulation.",
       "Actively participated in code reviews, maintaining high code quality standards and ensuring best practices.",
-      "Resolved critical bugs promptly, demonstrating a proactive approach to problem-solving."
-    ]
+      "Resolved critical bugs promptly, demonstrating a proactive approach to problem-solving.",
+    ],
   },
   {
     year: "2021 - 2022",
     role: "Intern",
     company: "United Nations Office for Project Services",
     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["HTML", "SASS", "JavaScript", "React", "Google Apps Script", "PostgresSQL"],
+    technologies: [
+      "HTML",
+      "SASS",
+      "JavaScript",
+      "React",
+      "Google Apps Script",
+      "PostgresSQL",
+    ],
     iconBg: "#4D8BC9",
     icon: icon3,
-    points : [
+    points: [
       "Developed robust scripts for the automation of office processes, harnessing the power of Google Apps Script and JavaScript.",
       "Engineered automation solutions that significantly improved efficiency and streamlined day-to-day operations.",
       "Successfully implemented Google Apps Script to automate repetitive tasks, allowing for a more focused and productive work environment.",
-      "Conceived and executed web application interfaces from inception, employing a blend of React, JavaScript, CSS, and HTML to ensure seamless and engaging user experiences created scripts for the automation of office processes. (Google Apps Script - JavaScript)"
-    ]
+      "Conceived and executed web application interfaces from inception, employing a blend of React, JavaScript, CSS, and HTML to ensure seamless and engaging user experiences created scripts for the automation of office processes. (Google Apps Script - JavaScript)",
+    ],
   },
 ];
 
@@ -90,7 +106,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Coacalco, State of Mexico, MX 55718 ",
+  phoneNo: "+52 55 39 76 36 01 ",
+  email: "pachecomaldonadoivan@gmail.com",
 };
